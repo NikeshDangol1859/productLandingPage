@@ -22,12 +22,16 @@
                     <input type="text" name="search" id="" placeholder="Search..." autocomplete="off"><i class="fa-solid fa-magnifying-glass"></i>
                 </div>
                 <div class="logs">
-                    <a href="#"> <i class="fa-solid fa-user"></i> <p>Sign In</p> </a>
+                    <a href="#"> <i class="fa-solid fa-user" style="margin-right: 10px;"></i></a>
                     <a href="#"><i class="fa-solid fa-cart-plus"></i> </a>
 
                 </div>
             </div>
                 <div class="category">
+                  <!-- Home -->
+                  <div class="dropdown">
+                    <button class="dropbtn"><a href="index.html">Home</a></button>                   
+            </div> 
                     <!-- Product -->
                     <div class="dropdown">
                         <button class="dropbtn">Product <span id="arrow"> <i class="fa-solid fa-angle-up"></i></span> </button>
@@ -57,42 +61,64 @@
         </div>
             
             
-            </div> 
-            <!-- image slider--> 
-             <!-- Slideshow container -->
-<div class="slideshow-container">
+            </div> <!-- Category Div Close-->
+            <div class="content">
+              <div class="marketing">
+                <img src="/picture/bacground.png" alt="">
+                <div class="text-content">
+                  <h1>We Create the best Laptop</h1>
+                  <p>
+                    Engineered with cutting-edge technology, our laptops deliver top performance, 
+                    durability, and sleek design. Perfect for professionals, gamers, and students alike.
+                  </p>
+                  <ul>
+                    <li>Latest processors with vibrant, high-resolution displays</li>
+                    <li>Ultra-slim, lightweight design with long-lasting battery life</li>
+                    <li>Customizable options to suit your preferences</li>
+                  </ul>
+                <div class="btns">
+                  <a href="#section"class="shop shopNowBounce">Shop Now</a>
+                </div>
 
-    <!-- Full-width images with number and caption text -->
-    <div class="mySlides fade">
-      <img src="/picture/slide1.jpg">
-      <!-- <div class="text">Caption Text</div> -->
-    </div>
-  
-    <div class="mySlides fade">
-      <img src="/picture/slide2.jpg">
-      <!-- <div class="text">Caption Two</div> -->
-    </div>
-  
-    <div class="mySlides fade">
-      <img src="/picture/slide3.jpg">
-      <!-- <div class="text">Caption Three</div> -->
-    </div>
-  
-    <!-- Next and previous buttons -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-  </div>
-  <br>
-  
-  <!-- The dots/circles -->
-  <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-  </div>
-                      
+                  </div>
+                <div class="laptop-bg rotate"></div>
+                <div class="laptops">
+                  <img src="/picture/laptop.png" alt="" class="fade">
+                </div>
+              </div>
+
+            </div> <!--Content Div Close-->
+
+            <section id="section">
+              <div class="marketing-section">
+                <h1>Great Offer</h1>
+                <div class="offers">
+                                <!-- card 1 -->
+                  <div class="card"> 
+                    <!-- <div class="discount"> Get Upto 25%</div>                          -->
+                    <h2 class="card-heading">Best Laptop for Gaming</h2>
+                    <div class="card-icon">                        
+                      <img src="/picture/laptop.png" alt="">
+                  </div>
+                    <p class="card-detail">
+                      Experience the ultimate gaming experience with our top-of-the-line laptops, featuring the latest
+                      processors, high-resolution displays, and advanced cooling systems.</p>   
+                      <div class="card-btns">
+                        <a href="#">Buy Now</a>
+
+                      </div>                   
+                </div>   <!-- Card 1 Div Close-->
+                
+
+                  </div>
+                </div>
+                
+              </div>
+
+            </section>
+                           
         
-    </div>   
+    </div>   <!-- Main Div Close-->
 
     
 </body>
