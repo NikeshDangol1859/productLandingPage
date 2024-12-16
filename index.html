@@ -11,19 +11,20 @@
 <body>
     <div class="container">
         <div class="top-nav">
-            <p>Shop for the best deals for Laptops with our Exclusive Offers! Join Now </p>            
+            <p>Shop for the best deals for Laptops with our Exclusive Offers! </p>
+            <p class="join joinBounce"><a href="" style="color: black;">Join Now</a></p>             
         </div>
         <div class="main">
           <div class="main-nav">
             <div class="nav">
               <div class="logo">
-                  <img src="/picture/logo.jpg" alt=""> <h2>Laptop</h2>
+                  <img src="/picture/logo.jpg" alt=""> <h2> Lenovo</h2>
               </div> 
               <div class="search">
-                  <input type="text" name="search" id="" placeholder="Search..." autocomplete="off"><i class="fa-solid fa-magnifying-glass"></i>
+                  <input type="text" name="search" id="" placeholder="Search for laptops" autocomplete="off"><i class="fa-solid fa-magnifying-glass"></i>
               </div>
               <div class="logs">
-                  <a href="#"> <i class="fa-solid fa-user" style="margin-right: 10px;"></i></a>
+                  <a href="#" > <i class="fa-solid fa-user" style="margin-right: 10px;"></i></a>
                   <a href="#"><i class="fa-solid fa-cart-plus"></i> </a>
 
               </div>
@@ -33,7 +34,7 @@
                 <div class="category">
                   <!-- Home -->
                   <div class="dropdown">
-                    <button class="dropbtn"><a href="index.html">Home</a></button>                   
+                    <button class="dropbtn"><a href="index.html" style="font-weight: 700;">Home</a></button>                   
             </div> 
                     <!-- Product -->
                     <div class="dropdown">
@@ -65,6 +66,7 @@
             
             
             </div> <!-- Category Div Close-->
+
             <div class="content">
               <div class="marketing">
                 <img src="/picture/bacground.png" alt="">
@@ -80,7 +82,7 @@
                     <li>Customizable options to suit your preferences</li>
                   </ul>
                 <div class="btns">
-                  <a href="#section"class="shop shopNowBounce">Shop Now</a>
+                  <a href="#section" class="shop shopNowBounce">Shop Now</a>
                 </div>
 
                   </div>
@@ -102,15 +104,16 @@
         <div class="filter-section">
             <h3>Price</h3>
             <div class="price-range">
-                <input type="text" value="NPR 35000" class="price-input">
+                <input type="text" value="NPR 35000" class="price-input" readonly>
                 <span>to</span>
-                <input type="text" value="NPR 565000" class="price-input">
+                <input type="text" value="NPR 565000" class="price-input" readonly>
             </div>
-            <div class="slider">
-                <div class="slider-track"></div>
-                <div class="slider-thumb left"></div>
-                <div class="slider-thumb right"></div>
-            </div>
+            <div class="range-slider">
+              <input type="range" id="slider-left" class="slider-thumb" min="0" max="100" value="20">
+              <input type="range" id="slider-right" class="slider-thumb" min="0" max="100" value="80">
+              <div class="slider-track"></div>
+          </div>
+          
             <button class="apply-btn">Apply</button>
         </div>
 
@@ -153,14 +156,14 @@
                 <div class="offers">
                   <!-- card 1 -->
                       <div class="card"> 
-                        <div class="discount"> Get Upto 25%</div>                         
+                        <div class="discount">Get Upto 25%</div>                         
                         <h2 class="card-heading">Best Laptop for Gaming</h2>
-                        <div class="card-icon">                        
-                          <img src="/picture/laptop.png" alt="">
+                        <div class="card-image">                        
+                         <a href="#"> <img src="/picture/laptop.png" alt=""></a>
                       </div>
-                        <p class="card-detail">
+                        <p class="card-detail"> <a href="">
                           ASUS Vivobook Go E1404 2023 Ryzen 3 7320 | 8GB RAM | 512GB SSD | 14" FHD display | Magic NumPad
-                        </p>
+                        </a></p>
                         <div class="star">
                           <i class="fa fa-star"></i>
                           <i class="fa fa-star"></i>
@@ -172,28 +175,168 @@
                         </div>
                           <div class="card-price">
                             <div class="price">NPR 35000</div>
-                            <div class="discounted-price">NPR 26250</div>
+                            <div class="discounted-price">Now: NPR 26250</div>
                             </div>
                           <div class="card-btns">
                             <a href="#">Buy Now</a>
-                            <a href="#">Details</a>
 
                           </div>                   
                     </div>   <!-- Card 1 Div Close-->
+                     <!-- card 1 -->
+                     <div class="card"> 
+                      <div class="discount">Get Upto 25%</div>                         
+                      <h2 class="card-heading">Best Laptop for Gaming</h2>
+                      <div class="card-image">                        
+                       <a href="#"> <img src="/picture/laptop.png" alt=""></a>
+                    </div>
+                      <p class="card-detail"> <a href="">
+                        ASUS Vivobook Go E1404 2023 Ryzen 3 7320 | 8GB RAM | 512GB SSD | 14" FHD display | Magic NumPad
+                      </a></p>
+                      <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <span class="noratings">                            
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        </span>
+                      </div>
+                        <div class="card-price">
+                          <div class="price">NPR 35000</div>
+                          <div class="discounted-price">Now: NPR 26250</div>
+                          </div>
+                        <div class="card-btns">
+                          <a href="#">Buy Now</a>
+
+                        </div>                   
+                  </div>   <!-- Card 1 Div Close-->
+                   <!-- card 1 -->
+                   <div class="card"> 
+                    <div class="discount">Get Upto 25%</div>                         
+                    <h2 class="card-heading">Best Laptop for Gaming</h2>
+                    <div class="card-image">                        
+                     <a href="#"> <img src="/picture/laptop.png" alt=""></a>
+                  </div>
+                    <p class="card-detail"> <a href="">
+                      ASUS Vivobook Go E1404 2023 Ryzen 3 7320 | 8GB RAM | 512GB SSD | 14" FHD display | Magic NumPad
+                    </a></p>
+                    <div class="star">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <span class="noratings">                            
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      </span>
+                    </div>
+                      <div class="card-price">
+                        <div class="price">NPR 35000</div>
+                        <div class="discounted-price">Now: NPR 26250</div>
+                        </div>
+                      <div class="card-btns">
+                        <a href="#">Buy Now</a>
+
+                      </div>                   
+                </div>   <!-- Card 1 Div Close-->
+                 <!-- card 1 -->
+                 <div class="card"> 
+                  <div class="discount">Get Upto 25%</div>                         
+                  <h2 class="card-heading">Best Laptop for Gaming</h2>
+                  <div class="card-image">                        
+                   <a href="#"> <img src="/picture/laptop.png" alt=""></a>
+                </div>
+                  <p class="card-detail"> <a href="">
+                    ASUS Vivobook Go E1404 2023 Ryzen 3 7320 | 8GB RAM | 512GB SSD | 14" FHD display | Magic NumPad
+                  </a></p>
+                  <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <span class="noratings">                            
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    </span>
+                  </div>
+                    <div class="card-price">
+                      <div class="price">NPR 35000</div>
+                      <div class="discounted-price">Now: NPR 26250</div>
+                      </div>
+                    <div class="card-btns">
+                      <a href="#">Buy Now</a>
+
+                    </div>                   
+              </div>   <!-- Card 1 Div Close-->
+               <!-- card 1 -->
+               <div class="card"> 
+                <div class="discount">Get Upto 25%</div>                         
+                <h2 class="card-heading">Best Laptop for Gaming</h2>
+                <div class="card-image">                        
+                 <a href="#"> <img src="/picture/laptop.png" alt=""></a>
+              </div>
+                <p class="card-detail"> <a href="">
+                  ASUS Vivobook Go E1404 2023 Ryzen 3 7320 | 8GB RAM | 512GB SSD | 14" FHD display | Magic NumPad
+                </a></p>
+                <div class="star">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <span class="noratings">                            
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  </span>
+                </div>
+                  <div class="card-price">
+                    <div class="price">NPR 35000</div>
+                    <div class="discounted-price">Now: NPR 26250</div>
+                    </div>
+                  <div class="card-btns">
+                    <a href="#">Buy Now</a>
+
+                  </div>                   
+            </div>   <!-- Card 1 Div Close-->
    
   
   
 
     </div> <!--offers Div Close-->
                 
+                </div> <!--Marketing Div Close-->
+                
+             
+
+            </section> 
+          </div> <!-- Main Div Close-->
+
+            <div class="footer">
+              <div class="footer-content">
+                <div class="footer-logo">
+                  <a href="#"> <img src="/picture/logo.jpg" alt="Logo"></a>
+                  <div class="footer-links">
+                    <h2>Find Me: </h2>
+                    <ul>
+                      <li><a href="#"><i class="fa-solid fa-envelope"></i> lenovo@gmail.com</a></li>                 
+                       <li> <a href="#"><i class="fa-solid fa-phone"></i> 9841234567</a></li>
+                       <li> <a href="#"><i class="fa-solid fa-location-dot"></i> Kathmandu, Nepal</a></li>
+                    </ul>
+                    
+                  </div>
+                  
                 </div>
                 
+  
+                <div class="footer-marketing">
+                  sad
+  
+                </div>
               </div>
+              <div class="border-hori" style=""></div>
+              <div class="copywright"> Designed By NikeshDangol &copy; 2024</div>
+            </div>
 
-            </section>
                            
         
-    </div>   <!-- Main Div Close-->
+    </div>   
+    
 
     
 </body>
