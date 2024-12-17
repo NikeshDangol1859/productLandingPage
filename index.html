@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="/picture/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="/stylesheet/style.css">
+    <link rel="stylesheet" href="/stylesheet/responsiveness.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laptop</title>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <div class="container">
@@ -30,8 +33,12 @@
               </div>
           </div>
           </div>        
-            
-                <div class="category">
+          <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+                <div class="category" id="categoryMenu">
                   <!-- Home -->
                   <div class="dropdown">
                     <button class="dropbtn"><a href="index.html" style="font-weight: 700;">Home</a></button>                   
@@ -305,18 +312,19 @@
              
 
             </section> 
+
           </div> <!-- Main Div Close-->
 
             <div class="footer">
               <div class="footer-content">
                 <div class="footer-logo">
-                  <a href="#"> <img src="/picture/logo.jpg" alt="Logo"></a>
-                  <div class="footer-links">
-                    <h2>Find Me: </h2>
+                  <a href="#"><img src="/picture/favicon.png" alt="Logo"> <h2 style="font-weight: 700; margin: 10px;"> Support</h2></a>
+                  <div class="footer-links">  
+                    <h2></h2>                  
                     <ul>
-                      <li><a href="#"><i class="fa-solid fa-envelope"></i> lenovo@gmail.com</a></li>                 
-                       <li> <a href="#"><i class="fa-solid fa-phone"></i> 9841234567</a></li>
-                       <li> <a href="#"><i class="fa-solid fa-location-dot"></i> Kathmandu, Nepal</a></li>
+                      <li><a href="#"><i class="fa-solid fa-envelope"> </i> lenovo@gmail.com</a></li>                 
+                       <li> <a href="#"><i class="fa-solid fa-phone"> </i> 9841234567</a></li>
+                       <li> <a href="#"><i class="fa-solid fa-location-dot"> </i> Kathmandu, Nepal</a></li>
                     </ul>
                     
                   </div>
@@ -325,7 +333,48 @@
                 
   
                 <div class="footer-marketing">
-                  sad
+                  <div class="footer-category">
+                    <h2 class="footer-headings">Lenovo Category</h2>
+                    <ul>
+                      <li>Gaming</li>
+                      <li>Normal</li>
+                      <li>Student</li>
+                    </ul>
+
+                  </div> <!-- Footer category Div Close-->
+
+                  <div class="footer-about">
+                    <h2 class="footer-headings">About Us</h2>
+                    <ul>
+                      <li>About Us</li>
+                      <li>Terms and Conditions</li>
+                      <li>Warranty</li>
+                      <li>Privacy and Policy</li>
+                    </ul>
+
+                  </div> <!-- Footer About Div Close-->
+
+                  <div class="footer-services">
+                    <h2 class="footer-headings">Customer Service</h2>
+                    <ul>
+                      <li>Refund & Return Policy</li>
+                      <li>My Account</li>
+                      <li>Contact Us</li>
+                    </ul>
+
+                  </div> <!-- Footer services Div Close-->
+
+                  <div class="footer-icon">
+                    <h2 class="footer-headings">Find us on</h2>
+                    <ul>
+                      <li style="display: flex;"><i class="fa-brands fa-facebook"></i> <p>Facebook</p></li>
+                      <li style="display: flex;"><i class="fa-brands fa-instagram"></i> <p>Instagram</p></li>
+                      <li style="display: flex;"><i class="fa-brands fa-linkedin"></i> <p>Linkedin</p></li>
+                      <li style="display: flex;"><i class="fa-brands fa-youtube"></i> <p>Youtube</p></li>
+                    </ul>
+
+                  </div> <!-- Footer services Div Close-->
+                  
   
                 </div>
               </div>
@@ -341,5 +390,4 @@
     
 </body>
 </html>
-<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 <script src="js.js"></script>

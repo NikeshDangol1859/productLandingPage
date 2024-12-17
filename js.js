@@ -1,10 +1,3 @@
-// document.addEventListener("DOMContentLoaded", () => {
-//   const shopButton = document.querySelector(".shop");
-  
-//   setTimeout(() => {
-//     shopButton.classList.add("shop");
-//   }, 500); 
-// });
 
 const sliderLeft = document.getElementById('slider-left');
 const sliderRight = document.getElementById('slider-right');
@@ -34,3 +27,14 @@ sliderRight.addEventListener('input', updateTrack);
 
 // Initialize the track colors
 updateTrack();
+
+// hamburger(menu icon)
+
+// Select elements
+const hamburger = document.getElementById('hamburger');
+const categoryMenu = document.getElementById('categoryMenu');
+
+// Toggle menu on click
+hamburger.addEventListener('click', () => {
+  categoryMenu.classList.toggle('active');
+});
