@@ -30,11 +30,21 @@ updateTrack();
 
 // hamburger(menu icon)
 
-// Select elements
-const hamburger = document.getElementById('hamburger');
-const categoryMenu = document.getElementById('categoryMenu');
-
-// Toggle menu on click
-hamburger.addEventListener('click', () => {
-  categoryMenu.classList.toggle('active');
-});
+document.addEventListener("DOMContentLoaded", () => {
+    const hamburger = document.getElementById("hamburger");
+    const closeButton = document.getElementById("closeButton");
+    const categoryMenu = document.getElementById("categoryMenu");
+  
+    hamburger.addEventListener("click", () => {
+      categoryMenu.style.display = "flex";
+      closeButton.style.display = "block";
+      hamburger.style.display = "none";
+    });
+  
+    closeButton.addEventListener("click", () => {
+      categoryMenu.style.display = "none";
+      closeButton.style.display = "none";
+      hamburger.style.display = "flex";
+    });
+  });
+  
