@@ -28,6 +28,7 @@ sliderRight.addEventListener('input', updateTrack);
 // Initialize the track colors
 updateTrack();
 
+
 // hamburger(menu icon)
 
 document.addEventListener("DOMContentLoaded", () => {

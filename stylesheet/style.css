@@ -88,19 +88,20 @@ ul{
   margin: auto;
 
 }
-.logo{
+.logo a{
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.logo h2{
+.logo a h2{
   font-size: 30px;
   font-family: "Playfair Display", serif;
   font-weight: 900;
   margin-left: 3px;
+  color: #000000;
 }
 
-.logo img {
+.logo a img {
   width: 60px;
   height: auto;
 }
@@ -209,7 +210,7 @@ ul{
 .dropdown-content {
   display: none;
   position: absolute;
-  top: 40px;
+  top: 30px;
   left: 0;
   background-color: #2d2d30;
   border-radius: 8px;
@@ -380,9 +381,9 @@ ul{
   
 }
 .laptops{
-  width: 350px;
+  width: 450px;
   position: absolute;
-  top: 50px;
+  top: 63px;
   right: 320px;  
 }
 .laptops img{
@@ -760,4 +761,5 @@ animation: slideIn 1.5s ease-out forwards;
     }
 
 
+    
     
