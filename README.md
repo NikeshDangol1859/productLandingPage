@@ -28,3 +28,51 @@ Follow these steps to set up the project locally:
 
 ```bash
 git clone https://github.com/NikeshDangol1859/productLandingPage.git
+```
+
+### Step 2: Navigate to the project directory
+
+```bash
+cd productLandingPage
+```
+
+### Step 3: Open the project in your browser
+
+Open the index.html file in your preferred browser to view the landing page.
+
+---
+
+## Running the Tests
+
+There are no automated tests configured for this project. However, you can manually test the design and responsiveness by following these steps:
+
+### Step 1: Open the project in different browsers
+
+Ensure compatibility across popular browsers like Chrome, Firefox, and Edge.
+
+### Step 2: Test responsiveness
+
+Use browser developer tools to simulate various device sizes and ensure the layout adapts seamlessly.
+
+---
+
+## Deployment
+
+To deploy this project to a live server:
+
+1. Use a static hosting service like GitHub Pages, Netlify, or Vercel.
+2. For GitHub Pages:
+<ul>
+  <li>Push the repository to GitHub.</li>
+  <li>Go to your repository settings and enable GitHub Pages under the "Pages" section.</li>
+  <li>Your site will be live at: https://<your-username>.github.io/productLandingPage/</li>
+</ul>
+---
+    
+## Built With
+
+<ul>
+  <li>HTML - For the structure of the page</li>
+  <li>CSS - For styling and layout</li>
+  <li>JavaScript - For interactive elements and animations</li>
+</ul>
