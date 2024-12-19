@@ -49,3 +49,23 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
   
+
+  // scroll button
+  document.addEventListener("DOMContentLoaded", () => {
+    const scrollUpButton = document.getElementById("scrollUpButton");
+    const footer = document.querySelector("footer"); 
+  
+    window.addEventListener("scroll", () => {
+      const scrollY = window.scrollY || document.documentElement.scrollTop;
+      const windowHeight = window.innerHeight;
+      const footerTop = footer.getBoundingClientRect().top + scrollY;
+  
+      // Show or hide the button based on scroll position
+      if (scrollY > 100 && scrollY + windowHeight < footerTop) {
+        scrollUpButton.classList.add("show");
+      } else {
+        scrollUpButton.classList.remove("show");
+      }
+    });
+  });
+  
