@@ -23,6 +23,11 @@ Before you begin, ensure you have the following installed:
 - Git (for cloning the repository)
 
 ---
+## Demo
+
+Check out the live demo: <a href='https://product-landing-page-fawn-beta.vercel.app/'> Product Landing Page Demo </a>
+
+---
 
 ## Installing
 
@@ -85,7 +90,8 @@ To deploy this project to a live server:
 
 # WebSite preview
 
-![screencapture-127-0-0-1-5500-index-html-2024-12-19-14_50_30](https://github.com/user-attachments/assets/7f86eb9d-0d05-4692-b18d-0ce90789986d)
+
+![productLandingPage](picture/productlandingpage.png)
 
 ---
 <div align="center">
