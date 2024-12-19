@@ -1,1 +1,1 @@
-![My Logo](images/logo.png)
+![My Logo](pictures/logo.png)
