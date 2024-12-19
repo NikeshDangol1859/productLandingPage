@@ -25,7 +25,7 @@ Before you begin, ensure you have the following installed:
 ---
 ## Demo
 
-Check out the live demo: <a href='https://vercel.com/nikeshdangol1859s-projects/product-landing-page'> Product Landing Page Demo </a>
+Check out the live demo: <a href='https://product-landing-page-fawn-beta.vercel.app/'> Product Landing Page Demo </a>
 
 ---
 
