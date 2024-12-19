@@ -1,5 +1,7 @@
 "This Landing Page is built using HTML, CSS and JS(JavaScript)" <br/>
 "A responsive (Mobile View) website" <br/>
-"Feel Free to Vist: <a href='https://product-landing-page-fawn-beta.vercel.app/' target='_blank' style='color:white; text-decoration:none; background-color🟢; padding:10px;'> Landing Page</a>" <br/><br/>
-![screencapture-wf0gx7mp-5500-inc1-devtunnels-ms-2024-12-19-14_04_44](https://github.com/user-attachments/assets/50763a85-c6b0-4b12-9bf9-93c7b79d9534)
+"Feel Free to Vist: <a href='https://product-landing-page-fawn-beta.vercel.app/' target='_blank'> Landing Page</a>" <br/><br/>
+
+![screencapture-127-0-0-1-5500-index-html-2024-12-19-14_50_30](https://github.com/user-attachments/assets/5349f498-b27c-4b42-b1b1-8e8da399d71e)
+
 
