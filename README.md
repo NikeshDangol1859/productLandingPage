@@ -1,4 +1,3 @@
-![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 <h1> 🎉  Welcome to my project! </h1>
 
 # Product Landing Page
@@ -87,6 +86,12 @@ To deploy this project to a live server:
 ![screencapture-127-0-0-1-5500-index-html-2024-12-19-14_50_30](https://github.com/user-attachments/assets/7f86eb9d-0d05-4692-b18d-0ce90789986d)
 
 ---
-
+<div align="center">
+  
 ### Thank You For Visiting :two_hearts: :two_hearts:
+
+</div>
+---
+---
+
 
