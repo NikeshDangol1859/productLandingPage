@@ -6,7 +6,8 @@
 ![screencapture-127-0-0-1-5500-index-html-2024-12-19-14_50_30](https://github.com/user-attachments/assets/5349f498-b27c-4b42-b1b1-8e8da399d71e)
 
 //Mobile View <br>
-![screencapture-127-0-0-1-5500-index-html-2024-12-19-14_55_10](https://github.com/user-attachments/assets/5982a63c-5448-4622-b94c-10b52a996d8a)
+![screencapture-127-0-0-1-5500-index-html-2024-12-19-14_59_29](https://github.com/user-attachments/assets/76b482ce-4286-4a43-882c-ced5ebdd4f1a)
+
 
 
 
