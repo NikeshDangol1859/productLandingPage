@@ -1,4 +1,6 @@
+<div align='center'>
 <h1> 🎉  Welcome to my project! </h1>
+</div>
 
 # Product Landing Page
 
@@ -88,10 +90,13 @@ To deploy this project to a live server:
 ---
 <div align="center">
   
-### Thank You For Visiting :two_hearts: :two_hearts:
+## Thank You For Visiting :two_hearts: :two_hearts:
 
 </div>
+
 ---
+
 ---
+
 
 
