@@ -1,4 +1,4 @@
 "This Landing Page is built using HTML, CSS and JS(JavaScript)"
 "A responsive (Mobile View) website"
+![screencapture-wf0gx7mp-5500-inc1-devtunnels-ms-2024-12-19-14_04_44](https://github.com/user-attachments/assets/50763a85-c6b0-4b12-9bf9-93c7b79d9534)
 
-![{3782955F-F023-44B6-A53C-AC47C6C53970}](https://github.com/user-attachments/assets/d5abfdc4-8542-40a2-8a8c-015632e384bb)
