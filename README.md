@@ -85,7 +85,8 @@ To deploy this project to a live server:
 
 # WebSite preview
 
-![screencapture-127-0-0-1-5500-index-html-2024-12-19-14_50_30](https://github.com/user-attachments/assets/7f86eb9d-0d05-4692-b18d-0ce90789986d)
+
+![productLandingPage](picture/productlandingpage.png)
 
 ---
 <div align="center">
