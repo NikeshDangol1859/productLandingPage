@@ -689,9 +689,10 @@ animation: slideIn 1.5s ease-out forwards;
     justify-content: center;
     cursor: pointer;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-    opacity: 0; /* Initially hidden */
-    visibility: hidden; /* Prevent interaction */
+    /* opacity: 0;
+    visibility: hidden;
     transition: opacity 0.3s, visibility 0.3s;
+    z-index: 1000; */
   }
   @keyframes bounce {
       0%, 100% {
@@ -701,18 +702,19 @@ animation: slideIn 1.5s ease-out forwards;
         transform: translateY(-5px);
       }
     }
+
+    .uparrow a.show {
+      opacity: 1;
+      visibility: visible;
+    }   
+
     .uparrow a::before {
       content: "⮝";
       font-size: 18px;
       color: white;
       animation: bounce 1s infinite;
     }
-    .uparrow.show {
-      opacity: 1;
-      visibility: visible;
-      z-index: 5;
-    }
-
+ 
 
     /* footer */
 
