@@ -10,6 +10,9 @@
 
 
 *{margin: 0; padding: 0;}
+html{
+  scroll-behavior: smooth;
+}
 
 ul{
     list-style-type: none;
@@ -676,7 +679,7 @@ animation: slideIn 1.5s ease-out forwards;
       transform: scale(1.05);
     }
 
-    .uparrow a{
+    .uparrow{
       position: fixed; /* Adjust based on your layout */
     bottom: 20px; /* Adjust position */
     right: 25px;
@@ -689,10 +692,6 @@ animation: slideIn 1.5s ease-out forwards;
     justify-content: center;
     cursor: pointer;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-    /* opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.3s, visibility 0.3s;
-    z-index: 1000; */
   }
   @keyframes bounce {
       0%, 100% {
@@ -702,13 +701,7 @@ animation: slideIn 1.5s ease-out forwards;
         transform: translateY(-5px);
       }
     }
-
-    .uparrow a.show {
-      opacity: 1;
-      visibility: visible;
-    }   
-
-    .uparrow a::before {
+    .uparrow::before {
       content: "⮝";
       font-size: 18px;
       color: white;
@@ -721,6 +714,7 @@ animation: slideIn 1.5s ease-out forwards;
     .footer{
       background-image:linear-gradient(gray, #444444);
       height: auto;
+      z-index: 5;
     }
 
     .footer-content{
